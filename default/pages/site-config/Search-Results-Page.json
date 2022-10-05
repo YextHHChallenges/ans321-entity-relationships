@@ -1,0 +1,11 @@
+{
+  "$id": "Search-Results-Page",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1",
+  "siteName": "Search Results Page",
+  "features": [
+    {
+      "featureType": "SELF_SERVE_PAGE_SET",
+      "feature": "Search-Results-Template"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "$id": "ce_eventSpecials.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Event Specials-default",
+  "entityType": "ce_eventSpecials",
+  "fields": [
+    "c_linkedEvents",
+    "description",
+    "photoGallery"
+  ],
+  "required": []
+}

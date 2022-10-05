@@ -1,0 +1,20 @@
+{
+  "$id": "c_linkedEvents",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "List of events where a specific special item is served.",
+  "displayName": "Linked Events",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "entityReference",
+      "type": {
+        "entityReferenceType": {
+          "relatedFieldId": "c_eventSpecials",
+          "type": "TWO_WAY"
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}

@@ -1,0 +1,17 @@
+{
+  "$id": "event-specials-2",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_linkedEvents": [
+      "Event-3",
+      "Event-4",
+      "Event-2"
+    ],
+    "description": "Golden churros that are fried and dusted in cinnamon and sugar and stuffed with creamy dulce de leche.",
+    "name": "Dulce de Leche Churros"
+  },
+  "entityType": "ce_eventSpecials",
+  "folder": "yext/root",
+  "labels": []
+}

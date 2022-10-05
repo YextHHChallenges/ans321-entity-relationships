@@ -1,0 +1,23 @@
+{
+  "$id": "125019244",
+  "$schema": "https://schema.yext.com/config/km/saved-filter/v1",
+  "name": "Events in the Future",
+  "filter": {
+    "entityField": [
+      {
+        "dateTimePastFuture": {
+          "type": "FUTURE"
+        },
+        "fieldId": "time.end"
+      }
+    ],
+    "entityType": [
+      {
+        "entityTypeId": [
+          "event"
+        ],
+        "type": "IS"
+      }
+    ]
+  }
+}

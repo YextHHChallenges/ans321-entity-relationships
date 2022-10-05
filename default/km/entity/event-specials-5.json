@@ -1,0 +1,17 @@
+{
+  "$id": "event-specials-5",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_linkedEvents": [
+      "Event-5",
+      "Event-6",
+      "Event-4"
+    ],
+    "description": "A warm flour tortilla stuffed with a three-cheese blend, shrimp, and steak.",
+    "name": "Surf and Turf Quesadilla"
+  },
+  "entityType": "ce_eventSpecials",
+  "folder": "yext/root",
+  "labels": []
+}

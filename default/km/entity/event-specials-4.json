@@ -1,0 +1,17 @@
+{
+  "$id": "event-specials-4",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_linkedEvents": [
+      "Event-6",
+      "Event-1",
+      "Event-2"
+    ],
+    "description": "This soup is loaded with fire-roasted tomatoes and chicken cooked in spicy broth and garnished with creamy avocado, shredded cheese, and fried tortilla strips.",
+    "name": "Tortilla Soup"
+  },
+  "entityType": "ce_eventSpecials",
+  "folder": "yext/root",
+  "labels": []
+}

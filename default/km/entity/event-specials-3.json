@@ -1,0 +1,18 @@
+{
+  "$id": "event-specials-3",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "c_linkedEvents": [
+      "Event-3",
+      "Event-6",
+      "Event-4",
+      "Event-2"
+    ],
+    "description": "Our classic guacamole mixed with jalapeño and serrano peppers for some extra heat. Served with tortilla chips.",
+    "name": "Spicy Guacamole"
+  },
+  "entityType": "ce_eventSpecials",
+  "folder": "yext/root",
+  "labels": []
+}

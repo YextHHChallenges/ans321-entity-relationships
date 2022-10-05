@@ -1,0 +1,7 @@
+{
+  "$id": "ce_eventSpecials",
+  "$schema": "https://schema.yext.com/config/km/entity-type/v2",
+  "description": "Menu items that are featured during Turtlehead Tacos events",
+  "displayName": "Event Specials",
+  "pluralDisplayName": "Event Specials "
+}
