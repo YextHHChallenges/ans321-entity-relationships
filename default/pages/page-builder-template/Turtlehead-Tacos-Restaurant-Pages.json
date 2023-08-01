@@ -8,7 +8,7 @@
     "Analytics": {
       "Cookies": {
         "Script": "",
-        "Status": "ALWAYS_ON"
+        "Status": "ALWAYS_OFF"
       },
       "Pixel": {
         "Script": "",
@@ -593,10 +593,10 @@
               "Sink": "questionText"
             },
             {
-              "ExternalEntityId": "faq-1",
+              "ExternalEntityId": "",
               "InputType": "",
               "SelectedField": [
-                "answer"
+                "answerV2"
               ],
               "Sink": "answerText"
             },
@@ -791,21 +791,6 @@
           "ListParamEntries": [],
           "ModuleId": "u994VCIuHU",
           "Scss": ".module-announcement-bar {\n\tpadding: 0;\n}\n\n.module-announcement-bar a {\n\tflex-grow: 1;\n\ttext-align: center;\n\ttext-transform: uppercase;\n\tpadding: 7px 5px;\n}\n\n// Override the background color below\n.module-announcement-bar .btn {\n    background-color: #ff9500;\n\tborder-radius: 0px;\n\tword-wrap: break-word;\n\twhite-space: normal;\n\tborder: 8px solid #db8000;\n\tmargin: 0px;\n\tbox-shadow: none;\n\t\u0026:hover\n\t{\n\t    background-color: #db8000;\n\t}\n}"
-        },
-        {
-          "ContentMapEntries": [
-            {
-              "ExternalEntityId": "",
-              "InputType": "CONSTANT",
-              "Sink": "html",
-              "StringValue": "\u003c!--place search bar--\u003e\n\n\u003cdiv class\u003d\"search_form\"\u003e \u003c/div\u003e\n\n\u003c!--add Answers default search bar styling--\u003e\n\n\u003clink rel\u003d\"stylesheet\" href\u003d\"https://assets.sitescdn.net/answers/v1.0.0/answers.css\"\u003e\n\n\u003c!--intialize Answers search bar component. Replace relevant keys to pull in your Search Configuration--\u003e\n\n\u003cscript\u003e\nfunction initAnswers() {\n\tANSWERS.init({\n\t\tapiKey: \u0027sandbox-0cc00f8577cc5a267aa6828bc1328684\u0027,\n\t\texperienceKey: \u0027answers\u0027,\n\t\texperienceVersion: \u0027PRODUCTION\u0027,\n\t\tbusinessId: \u00273175149\u0027,\n\t\tonReady: function () {\n\t\t\tANSWERS.addComponent(\u0027SearchBar\u0027, {\n\t\t\t\tcontainer: \u0027.search_form\u0027,\n                redirectUrl: \u0027https://36f5d9e0f417.sandboxlandingpagespreview.com/en/index.html\u0027,\n\t\t\t\tpromptHeader: \u0027You can ask us:\u0027,\n\t\t\t\tsearchText: \u0027What can we help you find?\u0027\n\t\t\t});\n\t\t}\n\t});\n}\n\u003c/script\u003e\n\n\u003c!--add Answers Javascript library to the search bar--\u003e\n\n\u003cscript src\u003d\"https://assets.sitescdn.net/answers/v1.0.0/answers.min.js\" onload\u003d\"ANSWERS.domReady(initAnswers)\" async defer\u003e\u003c/script\u003e\t"
-            }
-          ],
-          "DefaultScss": "",
-          "Js": "",
-          "ListParamEntries": [],
-          "ModuleId": "99xxzvto9_",
-          "Scss": ""
         }
       ],
       "ThemeMapping": {
@@ -893,73 +878,67 @@
         "DisplayNameOverride": "",
         "Id": "9JSAY3MA4S",
         "Module": "nav_bar",
-        "Version": 22
-      },
-      {
-        "DisplayNameOverride": "",
-        "Id": "99xxzvto9_",
-        "Module": "html",
-        "Version": 8
+        "Version": 48
       },
       {
         "DisplayNameOverride": "",
         "Id": "u994VCIuHU",
         "Module": "announcement_bar_2",
-        "Version": 13
+        "Version": 26
       },
       {
         "DisplayNameOverride": "",
         "Id": "JHE2lN0AxE",
         "Module": "centered_hero",
-        "Version": 17
+        "Version": 29
       },
       {
         "DisplayNameOverride": "",
         "Id": "u9E-BeM20E",
         "Module": "location_details_with_map_2",
-        "Version": 30
+        "Version": 51
       },
       {
         "DisplayNameOverride": "",
         "Id": "uutq8gIJJv",
         "Module": "item_list_i",
-        "Version": 13
+        "Version": 31
       },
       {
         "DisplayNameOverride": "",
         "Id": "uHY-W0n9Hv",
         "Module": "individual_faq",
-        "Version": 16
+        "Version": 29
       },
       {
         "DisplayNameOverride": "",
         "Id": "9uQY23xAxS",
         "Module": "text_block",
-        "Version": 17
+        "Version": 29
       },
       {
         "DisplayNameOverride": "",
         "Id": "HHV2lNM2ME",
         "Module": "nearby_locations",
-        "Version": 23
+        "Version": 45
       },
       {
         "DisplayNameOverride": "",
         "Id": "HJFnqrVuu_",
         "Module": "divider",
-        "Version": 12
+        "Version": 24
       },
       {
         "DisplayNameOverride": "OpenTable Widget",
         "Id": "HJCEAwEu9v",
         "Module": "html",
-        "Version": 8
+        "Version": 20
       },
       {
         "DisplayNameOverride": "",
         "Id": "HuVkYe02xE",
         "Module": "footer",
-        "Version": 18
+        "Version": 32
       }
     ],
     "Path": "",

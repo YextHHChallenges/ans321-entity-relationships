@@ -8,7 +8,7 @@
     "Analytics": {
       "Cookies": {
         "Script": "",
-        "Status": "ALWAYS_ON"
+        "Status": "ALWAYS_OFF"
       },
       "Pixel": {
         "Script": "",
@@ -382,7 +382,7 @@
                   "ExternalEntityId": "",
                   "InputType": "",
                   "SelectedField": [
-                    "answer"
+                    "answerV2"
                   ],
                   "Sink": "description"
                 },
@@ -756,49 +756,49 @@
         "DisplayNameOverride": "",
         "Id": "HJH_0t9l9v",
         "Module": "nav_bar",
-        "Version": 22
+        "Version": 48
       },
       {
         "DisplayNameOverride": "",
         "Id": "u99U0wuYuR",
         "Module": "centered_hero",
-        "Version": 17
+        "Version": 29
       },
       {
         "DisplayNameOverride": "",
         "Id": "J9u_xt9l9_",
         "Module": "job_details",
-        "Version": 5
+        "Version": 18
       },
       {
         "DisplayNameOverride": "",
         "Id": "HuBdy7uBuR",
         "Module": "divider",
-        "Version": 12
+        "Version": 24
       },
       {
         "DisplayNameOverride": "",
         "Id": "JHitG89y9v",
         "Module": "item_list",
-        "Version": 19
+        "Version": 33
       },
       {
         "DisplayNameOverride": "",
         "Id": "uJHUxsuyu_",
         "Module": "item_list_i",
-        "Version": 12
+        "Version": 31
       },
       {
         "DisplayNameOverride": "",
         "Id": "uHuNNFuyJR",
         "Module": "about_this_page",
-        "Version": 27
+        "Version": 41
       },
       {
         "DisplayNameOverride": "",
         "Id": "JH9R4tHluv",
         "Module": "footer",
-        "Version": 18
+        "Version": 32
       }
     ],
     "Path": "",
